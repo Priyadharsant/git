@@ -1,0 +1,21 @@
+Git Branching and Workflow
+
+Branching is one of Git's most powerful features. It allows developers to diverge from the main line of development and work independently without affecting the main codebase. Here are some key concepts:
+
+1. Creating Branches:
+   - Use 'git branch <branch-name>' to create a new branch
+   - Use 'git checkout -b <branch-name>' to create and switch to a new branch
+
+2. Common Branch Types:
+   - main/master: The primary branch containing stable code
+   - feature: For developing new features
+   - hotfix: For quick fixes to production issues
+   - development: For integrating features before merging to main
+
+3. Basic Branch Commands:
+   - git branch: List all branches
+   - git checkout <branch-name>: Switch to a branch
+   - git merge <branch-name>: Merge changes from another branch
+   - git branch -d <branch-name>: Delete a branch
+
+Best practices include keeping branches focused on single features or fixes, regularly updating from the main branch, and deleting branches after they're merged.
